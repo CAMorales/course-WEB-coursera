@@ -1,0 +1,64 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+#header-nav {
+    /*height: 80px;*/
+    background-color: #009688;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    /*margin-top: 10px;*/
+    margin-bottom: 20px;
+    color: white;
+}
+
+.navbar-toggle{
+  background: black;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-align: center;
+  font-size: 1.9em;
+}
+
+div.titulo{
+  float:right;
+  width: 33%;
+  border: 1px solid;
+  text-align: center;
+  font-size: 125%;
+}
+
+#t1{
+  background-color: #ffb366;
+}
+
+#t2{
+  background-color: #c6538c;
+}
+
+#t3{
+  background-color: #66ff66;
+}
+
+.box {
+  border: 1px solid;
+  margin: 20px 10px 20px 10px;
+  background-color: #d9d9d9;
+  height: 1000px;
+}
+
+
+
+@media (max-width: 767px){
+  #collapsable-nav{
+    background-color: gray;
+  }
+}

@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <title>Assignment Solution for Module 2</title>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <title>Assignment Solution for Module 3</title>
 </head>
 <body>
-  <h1>Our Menu</h1>
-  <div class="row">
-    <div class="col-lg-4 col-md-6" >
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand"><h1>Food, LLC</h1></a>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#"><br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#"><br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#"><br class="hidden-xs">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div>
+      </div><!-- end of div container -->
+    </nav><!-- end of header navbar -->
+  </header>
+
+  <div class="container-fluid">
+    <h1 class="text-center">Our Menu</h1>
+    <div id="main-content" class="row">
+      <div class="col-lg-4 col-md-6" >
       <div class="box">
         <div class="titulo" id="t1">Chicken</div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,6 +78,11 @@
         </p>
       </div>
     </div>
+    </div>
   </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
